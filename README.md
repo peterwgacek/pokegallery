@@ -13,11 +13,11 @@ A simple web appplication that displays Pokemon data using the Pokemon API
 -Pokemon API
 
 ## Wire Frame
-![Link Text](http://www.link.com)
+
 ![wireframe](./imgs/pokeGalleryWireframe.png)
 
 ## Getting Started
-[Click Here](#) to see the deployed app!
+[Click Here](https://peterwgacek.github.io/pokegallery/) to see the deployed app!
 
 ## Future Enhancements
 -The ability to favorite and save Pokemon to local storage
