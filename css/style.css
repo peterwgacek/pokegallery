@@ -13,7 +13,7 @@
     margin: 0;
 }
 body {
-    font-family: Helvetica;
+    font-family: var(--logo-font);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -33,7 +33,7 @@ header {
 }
 header > h1 {
     color: var(--accent-color);
-    text-shadow: 1px 1px 3px var(--secondary-brand-color);
+    text-shadow: 3px 3px 3px var(--secondary-brand-color);
 }
 footer {
     justify-content: center;
@@ -49,9 +49,10 @@ main {
     margin: 10px;
     border: 1px solid var(--primary-brand-color);
     box-shadow: 1px 1px 12px 1px var(--shadow-gray-light);
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
-
+    color: var(--accent-color);
+    text-shadow: 2px 2px 3px var(--secondary-brand-color);
 }
 
 .card:hover {
